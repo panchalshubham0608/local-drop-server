@@ -1,0 +1,19 @@
+{
+  "name": "local-drop-server",
+  "version": "1.0.0",
+  "description": "Server fpr locally sharing files across device",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.2",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.7.4"
+  }
+}
